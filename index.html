@@ -25,21 +25,26 @@
                     <div class="camposPrincipaisLinha1 linhasCampos">
                         <div class="grupo1 grupoInput">
                             <span>ID.</span>
-                            <input type="number" id="idDepartamento">
+                            <input type="number" id="idDepartamento" data-obrigatorio="true"
+                            data-soInteiroPositivo="true"
+                            >
                         </div>
                         <div class="grupo2 grupoInput">
                             <span>Departamento</span>
-                            <input type="text" id="departamento">
+                            <input type="text" id="departamento" data-obrigatorio="true">
                         </div>
                         <div class="grupo3 grupoInput">
                             <span>Data</span>
-                            <input type="date" id="dataRequisicao">
+                            <input type="date" id="dataRequisicao" data-obrigatorio="false">
                         </div>
                     </div>
                     <div class="camposPrincipaisLinha2 linhasCampos">
                         <div class="grupo4 grupoInput">
                             <span>ID Func.</span>
-                            <input type="number" id="idFuncionario">
+                            <input type="number" id="idFuncionario"
+                            data-soInteiroPositivo="true"
+                            >
+                            
                         </div>
                         <div class="grupo5 grupoInput">
                             <span>Nome Funcionário</span>
@@ -114,7 +119,7 @@
                             </div>
                             <div class="grupoQuantidade">
                                 <span>Quantidade</span>
-                                <input type="text" id="Quantidade">
+                                <input type="text" id="Quantidade" data-soInteiroPositivo="true">
                             </div>
                         
                         
@@ -156,11 +161,15 @@
                     <input type="text" readonly id="total">
                 </div>
             </div>
-    
+            <div class="grupoBotoes">
+            <div class="botoes" id="btnGravar">
+                Gravar
+            </div>
+            </div>
         </div>
     </div>
 
-   
-<script src="./assets/scripts/main.js"></script>
+<script src="/assets/scripts/dados.js"></script>
+<script src="/assets/scripts/main.js"></script>
 </body>
 </html>
