@@ -1,0 +1,835 @@
+{
+  "id": "978f4738-6d61-4a59-97bb-ee5c9163eed6",
+  "version": "2.0",
+  "name": "Testes_Resultados: João Victor Santana Oliveira",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "3464b51c-dec9-40a3-9ad7-6cb292476647",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "a1b9497d-35ba-4915-af03-d571cbc49aa2",
+    "name": "CT01 - CAMPO",
+    "commands": [{
+      "id": "bcdfacfc-037b-4dee-abbe-7ccb58b096fc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32cdb840-4ac3-4503-93e6-14ab9fba1091",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54454dde-073b-48d6-b08d-15c7584e6b12",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btn-gravar > span",
+      "targets": [
+        ["css=#btn-gravar > span", "css:finder"],
+        ["xpath=//div[@id='btn-gravar']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gravar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c4eea77c-fb27-446b-853b-b9b1bc095a7e",
+    "name": "CT02 - FUNDO VERDE",
+    "commands": [{
+      "id": "c1b6724c-5870-4f25-bf0c-90bffe7da2aa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98a548f7-1804-46f3-8a80-45bf9a365372",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1400e5a7-9c38-4050-8a0e-b32029d086e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=idDepartamento",
+      "targets": [
+        ["id=idDepartamento", "id"],
+        ["css=#idDepartamento", "css:finder"],
+        ["xpath=//input[@id='idDepartamento']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6840801e-d867-4127-8234-515179030b02",
+      "comment": "",
+      "command": "click",
+      "target": "id=departamento",
+      "targets": [
+        ["id=departamento", "id"],
+        ["css=#departamento", "css:finder"],
+        ["xpath=//input[@id='departamento']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fdda623-bbcf-426f-9d86-b93d0b717f34",
+      "comment": "",
+      "command": "click",
+      "target": "id=NomeFuncionario",
+      "targets": [
+        ["id=NomeFuncionario", "id"],
+        ["css=#NomeFuncionario", "css:finder"],
+        ["xpath=//input[@id='NomeFuncionario']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b614535-8ae9-4c4d-afd6-df0958c79b92",
+      "comment": "",
+      "command": "click",
+      "target": "id=cargo",
+      "targets": [
+        ["id=cargo", "id"],
+        ["css=#cargo", "css:finder"],
+        ["xpath=//input[@id='cargo']", "xpath:attributes"],
+        ["xpath=//div[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8016d8d-a318-42a3-8f9c-5a8f06740fd4",
+      "comment": "",
+      "command": "click",
+      "target": "id=Motivo",
+      "targets": [
+        ["id=Motivo", "id"],
+        ["css=#Motivo", "css:finder"],
+        ["xpath=//select[@id='Motivo']", "xpath:attributes"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f15548aa-97e6-41d6-a0ce-f2dc19482f7d",
+      "comment": "",
+      "command": "click",
+      "target": "id=idFuncionario",
+      "targets": [
+        ["id=idFuncionario", "id"],
+        ["css=#idFuncionario", "css:finder"],
+        ["xpath=//input[@id='idFuncionario']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f410292c-c34e-4d54-8d51-77c443e0a09b",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoriaMotivo",
+      "targets": [
+        ["id=categoriaMotivo", "id"],
+        ["css=#categoriaMotivo", "css:finder"],
+        ["xpath=//select[@id='categoriaMotivo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cb6430c2-a428-4d00-a224-518a2670c473",
+    "name": "CT03 - CAMPO ID",
+    "commands": [{
+      "id": "b0ea6a6d-0c2c-4a03-9b92-19f65ed09925",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89062ed4-2788-4a62-9ba1-19ec0c194162",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf58b8a7-de73-4365-8b9f-ff08402acaf7",
+      "comment": "",
+      "command": "click",
+      "target": "id=idDepartamento",
+      "targets": [
+        ["id=idDepartamento", "id"],
+        ["css=#idDepartamento", "css:finder"],
+        ["xpath=//input[@id='idDepartamento']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12025c63-a527-4053-bbee-b338e31cb801",
+      "comment": "",
+      "command": "type",
+      "target": "id=idDepartamento",
+      "targets": [
+        ["id=idDepartamento", "id"],
+        ["css=#idDepartamento", "css:finder"],
+        ["xpath=//input[@id='idDepartamento']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "40"
+    }]
+  }, {
+    "id": "c4f67849-f0e1-4f06-b704-9c1a02df37aa",
+    "name": "CT04 - CATEGORIA MOTIVO",
+    "commands": [{
+      "id": "183a2cf4-5c9e-4cc1-bcc5-13a2a10b6c0f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8508d62e-4319-40f9-a5e9-cffbaff1b70c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8064276c-3e25-437a-a279-35a5a397f9d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoriaMotivo",
+      "targets": [
+        ["id=categoriaMotivo", "id"],
+        ["css=#categoriaMotivo", "css:finder"],
+        ["xpath=//select[@id='categoriaMotivo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb0cb7e-301a-49e1-b55b-01b5e00c88b2",
+      "comment": "",
+      "command": "select",
+      "target": "id=categoriaMotivo",
+      "targets": [],
+      "value": "label=Gestão"
+    }]
+  }, {
+    "id": "fde922a2-9496-4e33-8387-f47abe617cf1",
+    "name": "CT05 - MOTIVO",
+    "commands": [{
+      "id": "8d3d53f5-194d-4285-a1f9-5d9704ba50d8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "409aec87-a53c-4b58-ac3c-4de4cc0a34a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e211edb-b2fe-4244-ae12-831b13a8c0b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoriaMotivo",
+      "targets": [
+        ["id=categoriaMotivo", "id"],
+        ["css=#categoriaMotivo", "css:finder"],
+        ["xpath=//select[@id='categoriaMotivo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "650d8bb2-81a3-463f-9df3-1362eff3c811",
+      "comment": "",
+      "command": "select",
+      "target": "id=categoriaMotivo",
+      "targets": [],
+      "value": "label=Gestão"
+    }, {
+      "id": "d85a9952-0b53-4b94-a9c2-c6934255a900",
+      "comment": "",
+      "command": "click",
+      "target": "id=Motivo",
+      "targets": [
+        ["id=Motivo", "id"],
+        ["css=#Motivo", "css:finder"],
+        ["xpath=//select[@id='Motivo']", "xpath:attributes"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36b96feb-b5ee-4be1-b109-05f09517b54c",
+      "comment": "",
+      "command": "select",
+      "target": "id=Motivo",
+      "targets": [],
+      "value": "label=Planejamento"
+    }, {
+      "id": "e4b835d9-990e-4915-836f-c96fca6fbcc7",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoriaMotivo",
+      "targets": [
+        ["id=categoriaMotivo", "id"],
+        ["css=#categoriaMotivo", "css:finder"],
+        ["xpath=//select[@id='categoriaMotivo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f9dcc79-a8c2-4166-b1c3-e9ebcdca403f",
+      "comment": "",
+      "command": "select",
+      "target": "id=categoriaMotivo",
+      "targets": [],
+      "value": "label=Cliente"
+    }, {
+      "id": "a7b87d19-0e21-475c-846c-5af6c363481a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Motivo",
+      "targets": [
+        ["id=Motivo", "id"],
+        ["css=#Motivo", "css:finder"],
+        ["xpath=//select[@id='Motivo']", "xpath:attributes"],
+        ["xpath=//div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Quebra de Máquina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4fd0ee3-5916-4c82-9ea4-b43df1d926e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=Motivo",
+      "targets": [
+        ["id=Motivo", "id"],
+        ["css=#Motivo", "css:finder"],
+        ["xpath=//select[@id='Motivo']", "xpath:attributes"],
+        ["xpath=//div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Quebra de Máquina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35bab121-72f3-4f0f-85b4-c091af0ab773",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=Motivo",
+      "targets": [
+        ["id=Motivo", "id"],
+        ["css=#Motivo", "css:finder"],
+        ["xpath=//select[@id='Motivo']", "xpath:attributes"],
+        ["xpath=//div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Quebra de Máquina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d2f1ddb-d62e-4aa6-842a-abe0e804ef48",
+      "comment": "",
+      "command": "click",
+      "target": "id=Motivo",
+      "targets": [
+        ["id=Motivo", "id"],
+        ["css=#Motivo", "css:finder"],
+        ["xpath=//select[@id='Motivo']", "xpath:attributes"],
+        ["xpath=//div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Quebra de Máquina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e7dcff5-bcbe-42dc-b185-75c83496c023",
+      "comment": "",
+      "command": "select",
+      "target": "id=Motivo",
+      "targets": [],
+      "value": "label=Quebra de Máquina"
+    }, {
+      "id": "565b292a-9375-415a-8d47-097542c744ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=categoriaMotivo",
+      "targets": [
+        ["id=categoriaMotivo", "id"],
+        ["css=#categoriaMotivo", "css:finder"],
+        ["xpath=//select[@id='categoriaMotivo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc6a4144-22ae-49b5-b173-6e619fa2ccb2",
+      "comment": "",
+      "command": "select",
+      "target": "id=categoriaMotivo",
+      "targets": [],
+      "value": "label=RP"
+    }, {
+      "id": "90d7d661-5a6d-4b43-b451-c4ac19c0497d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Motivo",
+      "targets": [
+        ["id=Motivo", "id"],
+        ["css=#Motivo", "css:finder"],
+        ["xpath=//select[@id='Motivo']", "xpath:attributes"],
+        ["xpath=//div[2]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Financeiro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6544b204-bf81-47a4-a222-42ce6c865751",
+      "comment": "",
+      "command": "select",
+      "target": "id=Motivo",
+      "targets": [],
+      "value": "label=Financeiro"
+    }]
+  }, {
+    "id": "c7b6dfa6-ddce-4684-815a-d5e78ae4c65c",
+    "name": "CT06 - DEPARTAMENTO",
+    "commands": [{
+      "id": "297139fc-e45b-4bc4-9dc2-7886e4e294be",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c1be04d-bdb8-4acc-b6b4-12a32c2f6645",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8651bf21-55f1-41af-b256-cf25390d6f92",
+      "comment": "",
+      "command": "click",
+      "target": "id=idDepartamento",
+      "targets": [
+        ["id=idDepartamento", "id"],
+        ["css=#idDepartamento", "css:finder"],
+        ["xpath=//input[@id='idDepartamento']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69789a16-1c4f-4506-9d3f-04c79783b3c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=idDepartamento",
+      "targets": [
+        ["id=idDepartamento", "id"],
+        ["css=#idDepartamento", "css:finder"],
+        ["xpath=//input[@id='idDepartamento']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "40"
+    }, {
+      "id": "38a1cef1-a10c-4e3e-8367-d77d3fe14e44",
+      "comment": "",
+      "command": "click",
+      "target": "id=departamento",
+      "targets": [
+        ["id=departamento", "id"],
+        ["css=#departamento", "css:finder"],
+        ["xpath=//input[@id='departamento']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "030ed005-591c-431f-98d1-7b4bdc2c9d54",
+      "comment": "",
+      "command": "click",
+      "target": "id=NomeFuncionario",
+      "targets": [
+        ["id=NomeFuncionario", "id"],
+        ["css=#NomeFuncionario", "css:finder"],
+        ["xpath=//input[@id='NomeFuncionario']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aa6ada94-aa97-4488-ac58-bbd8fc267757",
+    "name": "CT07 - FUNCIONÁRIO",
+    "commands": [{
+      "id": "90c54680-76cf-4dfa-a716-da194ed4c5a3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b37c9f56-e233-4d14-a8a4-915d1550e7ca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5202f2a-cb2a-45fd-8b62-8e215d84d9bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=idFuncionario",
+      "targets": [
+        ["id=idFuncionario", "id"],
+        ["css=#idFuncionario", "css:finder"],
+        ["xpath=//input[@id='idFuncionario']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "df642d76-673b-427b-bb9d-cb22ef00df70",
+    "name": "CT08 - COD.PRODUTO",
+    "commands": [{
+      "id": "eea91c16-06c8-4f10-9d9e-539fc441a32c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "176880e6-754b-42cc-9a25-860ea5fddf1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73a085a8-dd24-43b7-a0a0-66a73cecca93",
+      "comment": "",
+      "command": "click",
+      "target": "id=CodigoProduto",
+      "targets": [
+        ["id=CodigoProduto", "id"],
+        ["css=#CodigoProduto", "css:finder"],
+        ["xpath=//input[@id='CodigoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63622e59-e334-4960-90ee-ff0ce521df14",
+      "comment": "",
+      "command": "type",
+      "target": "id=CodigoProduto",
+      "targets": [
+        ["id=CodigoProduto", "id"],
+        ["css=#CodigoProduto", "css:finder"],
+        ["xpath=//input[@id='CodigoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "7a843160-b9d2-4012-8cb2-ecb796f4c917",
+      "comment": "",
+      "command": "click",
+      "target": "id=DescricaoProduto",
+      "targets": [
+        ["id=DescricaoProduto", "id"],
+        ["css=#DescricaoProduto", "css:finder"],
+        ["xpath=//input[@id='DescricaoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56c02e1e-b6e2-4363-80c5-25f2b2ffe29b",
+      "comment": "",
+      "command": "click",
+      "target": "id=CodigoProduto",
+      "targets": [
+        ["id=CodigoProduto", "id"],
+        ["css=#CodigoProduto", "css:finder"],
+        ["xpath=//input[@id='CodigoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf57eb69-4a10-420a-96e1-61c3a8e97569",
+      "comment": "",
+      "command": "type",
+      "target": "id=CodigoProduto",
+      "targets": [
+        ["id=CodigoProduto", "id"],
+        ["css=#CodigoProduto", "css:finder"],
+        ["xpath=//input[@id='CodigoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "10"
+    }]
+  }, {
+    "id": "b9133ba0-c1f4-46f1-a0de-b6a9c5bb9d72",
+    "name": "CT09 -  QUANTIDADE",
+    "commands": [{
+      "id": "4b86a434-57aa-4029-a6ef-5f8bd623a73c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79c9c933-a9fd-4f7f-b096-85f425449ad6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f4c8114-2e1a-431e-bcab-93f0712cc5c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=CodigoProduto",
+      "targets": [
+        ["id=CodigoProduto", "id"],
+        ["css=#CodigoProduto", "css:finder"],
+        ["xpath=//input[@id='CodigoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c50ba895-3f2b-48dc-bdfe-53cd386c8277",
+      "comment": "",
+      "command": "type",
+      "target": "id=CodigoProduto",
+      "targets": [
+        ["id=CodigoProduto", "id"],
+        ["css=#CodigoProduto", "css:finder"],
+        ["xpath=//input[@id='CodigoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "e5e22d49-f779-4de7-bceb-54799e4b4156",
+      "comment": "",
+      "command": "click",
+      "target": "id=Estoque",
+      "targets": [
+        ["id=Estoque", "id"],
+        ["css=#Estoque", "css:finder"],
+        ["xpath=//input[@id='Estoque']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b3d24d14-0203-4d90-bdb5-33e48d22b4ab",
+    "name": "CT10 - CAMPO QUANTIDADE",
+    "commands": [{
+      "id": "3877b755-17ea-49b2-ae23-0cec88f4310a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3706acc9-01cf-409b-b2e9-f462272bddfe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17adcdeb-8c56-4fc9-81eb-9ca0f3b0101e",
+      "comment": "",
+      "command": "click",
+      "target": "id=Estoque",
+      "targets": [
+        ["id=Estoque", "id"],
+        ["css=#Estoque", "css:finder"],
+        ["xpath=//input[@id='Estoque']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2a0c89fb-173a-43f0-a4f1-993ac49a6a04",
+    "name": "CT11 - GRAVAR ",
+    "commands": [{
+      "id": "78bf262d-79ed-4840-b8c9-bc7a84e48b0b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e87020c-8fbb-459a-9ffe-bc062f0e21ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2dd5385-8990-4692-a83f-b230b0fd1379",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-gravar",
+      "targets": [
+        ["id=btn-gravar", "id"],
+        ["css=#btn-gravar", "css:finder"],
+        ["xpath=//div[@id='btn-gravar']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "15ec9b68-2afe-4a52-a434-f112631c3858",
+    "name": "CT12- NÍVEL PRIORIDADE",
+    "commands": [{
+      "id": "0f12b40c-043f-429f-9337-f26c06855e9f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7f80ad9-630b-45c9-8abd-dd6a6bf14831",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "580acc5e-36a3-42b5-9f5c-838b327cede8",
+      "comment": "",
+      "command": "click",
+      "target": "id=urgente",
+      "targets": [
+        ["id=urgente", "id"],
+        ["name=prioridade", "name"],
+        ["css=#urgente", "css:finder"],
+        ["xpath=//input[@id='urgente']", "xpath:attributes"],
+        ["xpath=//div[@id='radioPrioridade']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e353a46-4455-4f16-9076-e68807ad5955",
+      "comment": "",
+      "command": "click",
+      "target": "id=medio",
+      "targets": [
+        ["id=medio", "id"],
+        ["css=#medio", "css:finder"],
+        ["xpath=//input[@id='medio']", "xpath:attributes"],
+        ["xpath=//div[@id='radioPrioridade']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f544c98-ac02-4262-8e49-19af2992e989",
+      "comment": "",
+      "command": "click",
+      "target": "id=baixo",
+      "targets": [
+        ["id=baixo", "id"],
+        ["css=#baixo", "css:finder"],
+        ["xpath=//input[@id='baixo']", "xpath:attributes"],
+        ["xpath=//div[@id='radioPrioridade']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "87286f22-2a14-4838-af05-3647d54f1d29",
+    "name": "CT13 - STATUS ESTOQUE",
+    "commands": [{
+      "id": "23165fa1-465e-44ee-ac7b-23e28efca198",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac320fe5-0a7f-42bf-8a08-6d4afa2fe3a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "250953b3-a44a-472d-ac69-fac624ed75dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=CodigoProduto",
+      "targets": [
+        ["id=CodigoProduto", "id"],
+        ["css=#CodigoProduto", "css:finder"],
+        ["xpath=//input[@id='CodigoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a044f6d2-8f3d-4a3f-86d0-5e73dd4e11de",
+      "comment": "",
+      "command": "type",
+      "target": "id=CodigoProduto",
+      "targets": [
+        ["id=CodigoProduto", "id"],
+        ["css=#CodigoProduto", "css:finder"],
+        ["xpath=//input[@id='CodigoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }]
+  }, {
+    "id": "4737338b-9fa7-47e9-ba63-47f40b491e33",
+    "name": "CT14 - TOOLTIP",
+    "commands": [{
+      "id": "7f06becf-1632-4107-b18a-d2464515f4a3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c93ce7a-2175-448b-8fe5-9299604df3fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdec080b-7b88-411f-ba1b-2cc1414d52b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=CodigoProduto",
+      "targets": [
+        ["id=CodigoProduto", "id"],
+        ["css=#CodigoProduto", "css:finder"],
+        ["xpath=//input[@id='CodigoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e8cb19f-b016-4fc5-871f-f0ff5399bfc3",
+      "comment": "",
+      "command": "type",
+      "target": "id=CodigoProduto",
+      "targets": [
+        ["id=CodigoProduto", "id"],
+        ["css=#CodigoProduto", "css:finder"],
+        ["xpath=//input[@id='CodigoProduto']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }]
+  }],
+  "suites": [{
+    "id": "70224a9b-b7b1-4de8-b68d-7cf5e52abee8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3464b51c-dec9-40a3-9ad7-6cb292476647"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}
