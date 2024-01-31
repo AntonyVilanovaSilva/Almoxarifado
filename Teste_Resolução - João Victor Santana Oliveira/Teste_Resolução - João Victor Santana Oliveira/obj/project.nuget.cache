@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UzVEABm/QDc79RYsBHJQoPA4XSFk9Rf8p4ZkC05KkYjQoMepHPxCACOo6Br2qzQIyL0MLB2vX13tIKNrP4ie2g==",
+  "dgSpecHash": "JkJXYYg6+uALBH3Qw4Ej+cEq9RHWwwPJj1jKTNgTMM+5skyvMCH2lDiWJu5HV8s+5LH43xMSzrhiPkDfMb8M1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\manha.cetafest\\Documents\\Teste_Resolução - João Victor Santana Oliveira\\Teste_Resolução - João Victor Santana Oliveira\\Teste_Resolução - João Victor Santana Oliveira.csproj",
+  "projectFilePath": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\Almoxarifado\\Teste_Resolução - João Victor Santana Oliveira\\Teste_Resolução - João Victor Santana Oliveira\\Teste_Resolução - João Victor Santana Oliveira.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manha.cetafest\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\manha.cetafest\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
