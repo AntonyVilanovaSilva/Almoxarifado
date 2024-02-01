@@ -140,7 +140,7 @@ namespace Teste_Resolução___João_Victor_Santana_Oliveira
             var categoriamotivo2 = "Cliente";
             var categoriamotivo3 = "RP";
 
-            var motivo = "Planejamento , Financeiro";
+            var motivo = "Planejamento";
             var motivo2 = "Quebra de Máquina";
             var motivo3 = "Financeiro";
 
@@ -155,11 +155,15 @@ namespace Teste_Resolução___João_Victor_Santana_Oliveira
             {
                 var dropdown = driver.FindElement(By.Id("Motivo"));
                 dropdown.FindElement(By.XPath("//option[. = 'Planejamento']")).Click();
+                string teste = dropdown.FindElement(By.XPath("//option[. = 'Planejamento']")).GetProperty("innerHTML");
+                Assert.Contains(teste, motivo);
             }
             driver.FindElement(By.Id("categoriaMotivo")).Click();
             {
                 var dropdown = driver.FindElement(By.Id("categoriaMotivo"));
                 dropdown.FindElement(By.XPath("//option[. = 'Cliente']")).Click();
+                string teste = dropdown.FindElement(By.XPath("//option[. = 'Quebra de Máquina']")).GetProperty("innerHTML"); 
+                Assert.Contains(motivo2, teste);
             }
             driver.FindElement(By.Id("Motivo")).Click();
             driver.FindElement(By.Id("Motivo")).Click();
@@ -237,21 +241,43 @@ namespace Teste_Resolução___João_Victor_Santana_Oliveira
         [Fact]
         public void CT09QUANTIDADE()
         {
-            driver.Navigate().GoToUrl("http://127.0.0.1:5500/");
-            driver.Manage().Window.Size = new System.Drawing.Size(945, 1012);
-            driver.FindElement(By.Id("CodigoProduto")).Click();
-            driver.FindElement(By.Id("CodigoProduto")).SendKeys("1");
-            driver.FindElement(By.Id("Estoque")).Click();
-
-            Dispose();
+            try
+            {
+                driver.Navigate().GoToUrl("http://127.0.0.1:5500/");
+                driver.Manage().Window.Size = new System.Drawing.Size(945, 1012);
+                var teste = driver.FindElement(By.Id("Estoque")).GetProperty("disabled");
+                Assert.True(Convert.ToBoolean(teste));
+                driver.FindElement(By.Id("CodigoProduto")).Click();
+                driver.FindElement(By.Id("CodigoProduto")).SendKeys("1");
+                Assert.False(Convert.ToBoolean(teste));
+                Dispose();
+            }
+            catch (Exception)
+            {
+                Dispose();
+                throw;
+            }
         }
 
         [Fact]
         public void CT10CAMPOQUANTIDADE()
         {
-            driver.Navigate().GoToUrl("http://127.0.0.1:5500/");
-            driver.Manage().Window.Size = new System.Drawing.Size(945, 1012);
-            driver.FindElement(By.Id("Estoque")).Click();
+            try
+            {
+                driver.Navigate().GoToUrl("http://127.0.0.1:5500/");
+                driver.Manage().Window.Size = new System.Drawing.Size(945, 1012);
+                var teste = driver.FindElement(By.Id("Estoque")).GetProperty("disabled");
+                Assert.False(!Convert.ToBoolean(teste));
+
+
+            }
+            catch (Exception)
+            {
+                Dispose();
+                throw;
+            }
+
+
 
             Dispose();
         }
@@ -261,7 +287,19 @@ namespace Teste_Resolução___João_Victor_Santana_Oliveira
         {
             driver.Navigate().GoToUrl("http://127.0.0.1:5500/");
             driver.Manage().Window.Size = new System.Drawing.Size(945, 1012);
-            driver.FindElement(By.Id("btn-gravar")).Click();
+            var teste = driver.FindElement(By.Id("btn-gravar")).GetAttribute("class");
+            bool teste2 = false;
+
+            if (teste == "BtnInserirItens")
+            {
+                teste2 = true;
+            }
+            else
+            {
+                teste2 = false;
+            }
+
+            Assert.False(teste2);
 
             Dispose();
         }
@@ -281,6 +319,9 @@ namespace Teste_Resolução___João_Victor_Santana_Oliveira
         [Fact]
         public void CT13STATUSESTOQUE()
         {
+
+            var valoresperado = "";
+
             driver.Navigate().GoToUrl("http://127.0.0.1:5500/");
             driver.Manage().Window.Size = new System.Drawing.Size(945, 1012);
             driver.FindElement(By.Id("CodigoProduto")).Click();
