@@ -41,10 +41,17 @@ namespace Teste_Resolução___João_Victor_Santana_Oliveira
             Assert.Contains(resultadoesperado, data);
 
             var idfuncionario = driver.FindElement(By.Id("idFuncionario")).GetAttribute("style");
-            Assert.Contains(" ", idfuncionario);
+            Assert.Contains(resultadoesperado, idfuncionario);
 
+            bool resultadoNaoObrigatorio = true;
             var nomefuncionario = driver.FindElement(By.Id("NomeFuncionario")).GetAttribute("style");
-            Assert.Contains(resultadoesperado, nomefuncionario);
+
+
+            if (nomefuncionario.Contains("background-color: red"))
+            {
+                resultadoNaoObrigatorio = false;
+            }
+            Assert.True(resultadoNaoObrigatorio);
 
             var cargo = driver.FindElement(By.Id("cargo")).GetAttribute("style");
             Assert.Contains(resultadoesperado, cargo);
@@ -304,43 +311,29 @@ namespace Teste_Resolução___João_Victor_Santana_Oliveira
             Dispose();
         }
 
-        [Fact]
-        public void CT12NVELPRIORIDADE()
-        {
-            driver.Navigate().GoToUrl("http://127.0.0.1:5500/");
-            driver.Manage().Window.Size = new System.Drawing.Size(945, 1012);
-            driver.FindElement(By.Id("urgente")).Click();
-            driver.FindElement(By.Id("medio")).Click();
-            driver.FindElement(By.Id("baixo")).Click();
-
-            Dispose();
-        }
+       
+  
 
         [Fact]
-        public void CT13STATUSESTOQUE()
+        public void CT13SESTOQUE()
         {
-
-            var valoresperado = "";
+            var resultadoesperado = "assets/img/verde.svg";
 
             driver.Navigate().GoToUrl("http://127.0.0.1:5500/");
             driver.Manage().Window.Size = new System.Drawing.Size(945, 1012);
             driver.FindElement(By.Id("CodigoProduto")).Click();
             driver.FindElement(By.Id("CodigoProduto")).SendKeys("1");
-
-            Dispose();
-        }
-
-        [Fact]
-
-        public void CT14TOOLTIP()
-        {
-            driver.Navigate().GoToUrl("http://127.0.0.1:5500/");
-            driver.Manage().Window.Size = new System.Drawing.Size(945, 1012);
+            driver.FindElement(By.CssSelector("th:nth-child(1)")).Click();
             driver.FindElement(By.Id("CodigoProduto")).Click();
-            driver.FindElement(By.Id("CodigoProduto")).SendKeys("2");
 
-            Dispose();
+            var resulta = driver.FindElement(By.Id("nivel")).GetProperty("src");
+            Assert.Contains(resultadoesperado, resulta);
+
+
+            driver.FindElement(By.Id("CodigoProduto")).SendKeys("2");
         }
+
+        
 
 
 
